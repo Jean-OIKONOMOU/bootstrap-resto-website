@@ -60,7 +60,7 @@ body, html {
 }
 
 .big-font {
-  font-size:1.5em;
+  font-size: 1.5em;
 }
 
 a {
@@ -68,19 +68,19 @@ a {
 }
 
 a:link {
- color: #faff00;
+  color: #faff00;
 }
 
 a:visited {
- color: #d70fb2;
+  color: #d70fb2;
 }
 
 a:hover {
- color: #faff00;
+  color: #faff00;
 }
 
 a:active {
- color: #d70fb2;
+  color: #d70fb2;
 }
 
 div.transbox {
@@ -187,15 +187,30 @@ div.transbox3 {
 }
 
 .card-img-top {
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 50%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 .bottomOfDiv {
-	position: absolute;
-	bottom: 0vw;
-	left: 1.5vw;
+  position: absolute;
+  bottom: 0vw;
+  left: 1.5vw;
 }
 
 .smallImg {
@@ -204,25 +219,73 @@ div.transbox3 {
   object-fit: cover;
 }
 
- @-webkit-keyframes boxanim { /* Safari, Opera, Chrome */
-0% {
-transform: translateX(900px);
+/* IMAGE ANIMATION */
+#img {
+  -webkit-animation-name: imgAnimation;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3s;
+  /* Safari 4.0 - 8.0 */
+  animation-name: imgAnimation;
+  animation-duration: 3s;
 }
 
-100% {
-transform: translateX(0px) ;
-}
-}
-@keyframes boxanim { /* Tous les autres navigateurs */
-0% {
-transform: translateX(900px);
+@-webkit-keyframes imgAnimation {
+
+  /* Safari, Opera, Chrome */
+  0% {
+    transform: translateY(105vw);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
 }
 
-100% {
-    transform: translateX(0px) ;
+@keyframes imgAnimation {
+
+  /* Tous les autres navigateurs */
+  0% {
+    transform: translateY(105vw);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+/* IMAGE ANIMATION END */
+
+/* JOJO ANIMATION */
+#jojo {
+
+  -webkit-animation-name: jojo;
+  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3s;
+  /* Safari 4.0 - 8.0 */
+  animation-name: jojo;
+  animation-duration: 3s;
 }
 
+@-webkit-keyframes jojo {
+
+  /* Safari, Opera, Chrome */
+  0% {
+    transform: translateX(105vw);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
 }
 
--webkit-animation: boxanim 6s; /* Safari, Opera, Chrome /
-animation: boxanim 6s; / Tous les autres navigateurs */
+@keyframes jojo {
+
+  /* Tous les autres navigateurs */
+  0% {
+    transform: translateX(105vw);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+/* JOJO ANIMATION END */
