@@ -177,8 +177,9 @@ div.transbox3 {
   font-size: 1em;
 }
 
-.fa-user-ninja.vanished {
-  opacity: 0.0;
+.fa-user-ninja {
+  padding-left: 0.5em;
+  font-size: 1em;
 }
 
 .fa-facebook {
@@ -202,3 +203,26 @@ div.transbox3 {
   width: 100%;
   object-fit: cover;
 }
+
+ @-webkit-keyframes boxanim { /* Safari, Opera, Chrome */
+0% {
+transform: translateX(900px);
+}
+
+100% {
+transform: translateX(0px) ;
+}
+}
+@keyframes boxanim { /* Tous les autres navigateurs */
+0% {
+transform: translateX(900px);
+}
+
+100% {
+    transform: translateX(0px) ;
+}
+
+}
+
+-webkit-animation: boxanim 6s; /* Safari, Opera, Chrome /
+animation: boxanim 6s; / Tous les autres navigateurs */

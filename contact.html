@@ -60,7 +60,72 @@
     </nav>
   </div>
 
-
+  <!-- CONTACT FORM -->
+  <section>
+    <div class="container my-5 py-3 transbox rounded">
+      <form method="post" role="form">
+        <div class="messages"></div>
+        <div class="controls">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="text-white ubuntuM">Prénom *</label>
+                <input type="text" name="name" class="form-control text-black ubuntuM" placeholder="Votre prénom ici *" required="required" data-error="Un prénom est requis.">
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="text-white ubuntuM">Nom de famille *</label>
+                <input type="text" name="surname" class="form-control text-black ubuntuM" placeholder="Votre nom ici *" required="required" data-error="Un nom de famille est requis.">
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="text-white ubuntuM" for="">Email *</label>
+                <input type="email" name="email" class="form-control  text-black ubuntuM" placeholder="Votre Email ici *" required="required" data-error="Un Email valide est requis.">
+                <small class="ubuntuM form-text text-muted">Votre Email restera secret.<span><i class="fas fa-user-ninja"></i></span></small>
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="text-white ubuntuM" for="">Raison de votre prise de contact *</label>
+                <select name="need" class="form-control ubuntuM" required="required" data-error="Veuillez spécifier la raison de votre prise de contact.">
+                  <option hidden class="ubuntuM" value="">Sélectionnez une option</option>
+                  <option class="ubuntuM" value="">Informations</option>
+                  <option class="ubuntuM" value="">Passer une commande</option>
+                  <option class="ubuntuM" value="">Demander un reçu</option>
+                  <option class="ubuntuM" value="">Réserver une table</option>
+                  <option class="ubuntuM" value="">Nous dire bonjour :)</option>
+                </select>
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="form-group">
+                <label class="text-white ubuntuM" for="">Votre message *</label>
+                <textarea name="message" class="form-control" placeholder="Votre message ici *" rows="4" required="required" data-error="Vous devez nous écrire au moins un mot."></textarea>
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+            <div class="col-md-12 col-12 col-lg-12 text-center">
+              <button type="button" class="btn btn-success btn-send">
+          <span><i class="fas fa-arrow-right"></i></span>  Envoyer  <span><i class="fas fa-arrow-left"></i></span>
+          <!-- BOOTSTRAP 4 DOES NOT SUPPORT GLYPHICONS ANYMORE -->
+        </button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+  <!-- END -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
