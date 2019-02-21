@@ -1,0 +1,204 @@
+body {
+  padding: 4rem 0;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'alex';
+  src: url('../fonts/alex-brush/AlexBrush-Regular.ttf') format('truetype');
+  /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'UbuntuL';
+  src: url('../fonts/ubuntu/Ubuntu-L.ttf') format('truetype');
+  /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'UbuntuM';
+  src: url('../fonts/ubuntu/Ubuntu-M.ttf') format('truetype');
+  /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'UbuntuB';
+  src: url('../fonts/ubuntu/Ubuntu-B.ttf') format('truetype');
+  /* Safari, Android, iOS */
+}
+
+@media only screen and (min-width: 1200px) {
+  .centerMe {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.navbar-fixed-top {
+  position: fixed;
+}
+
+.ubuntuL {
+  font-family: 'UbuntuL', sans-serif;
+}
+
+.ubuntuM {
+  font-family: 'UbuntuM', sans-serif;
+}
+
+.ubuntuB {
+  font-family: 'UbuntuB', sans-serif;
+}
+
+.alex {
+  font-family: 'alex', sans-serif;
+}
+
+.big-font {
+  font-size:1.5em;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+a:link {
+ color: #faff00;
+}
+
+a:visited {
+ color: #d70fb2;
+}
+
+a:hover {
+ color: #faff00;
+}
+
+a:active {
+ color: #d70fb2;
+}
+
+div.transbox {
+  background: rgba(25, 25, 25, .7);
+}
+
+div.transbox2 {
+  background: rgba(25, 25, 25, 1);
+}
+
+div.transbox3 {
+  background: rgba(161, 32, 32, 1);
+}
+
+.bg {
+  background-image: url("../img/Backgrounds/steven-roe.jpg");
+  /* Image Credit - Steven Roe */
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bgCommon {
+  background-image: url("../img/Backgrounds/alex-knight.jpg");
+  /* Image Credit - Alex Knight */
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.navbar {
+  background: transparent !important;
+}
+
+.fa-bomb {
+  color: Tomato;
+  font-size: 1em;
+  padding-left: 0.5em;
+}
+
+.fa-bone {
+  color: white;
+}
+
+.fa-bullseye {
+  color: tomato;
+}
+
+.fa-wine-glass-alt {
+  color: #322337;
+}
+
+.fa-ice-cream {
+  color: #ff8200;
+}
+
+.fa-mug-hot {
+  color: blue;
+}
+
+.fa-bacon {
+  color: red;
+}
+
+.fa-box {
+  color: black;
+}
+
+.fa-fish {
+  color: blue;
+  padding-left: 0.5em;
+  font-size: 1em;
+}
+
+.fa-dragon {
+  color: #ff0000;
+  padding-left: 0.5em;
+  font-size: 1em;
+}
+
+.fa-horse {
+  color: brown;
+  padding-left: 0.5em;
+  font-size: 1em;
+}
+
+.fa-kiwi-bird {
+  color: yellow;
+  padding-left: 0.5em;
+  font-size: 1em;
+}
+
+.fa-user-ninja.vanished {
+  opacity: 0.0;
+}
+
+.fa-facebook {
+  color: rgb(59, 91, 152);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.bottomOfDiv {
+	position: absolute;
+	bottom: 0vw;
+	left: 1.5vw;
+}
+
+.smallImg {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
