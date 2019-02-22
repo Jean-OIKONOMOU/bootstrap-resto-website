@@ -8,7 +8,13 @@ var openClosed = function() {
   } else {
     x = "<span style=\"color:#fc4b1c\">Désolé, revenez plus tard.</span>";
   }
-document.getElementById("ef").innerHTML = x;
+//document.
+
+document.getElementsByTagName("P")[2].innerHTML = x;
+document.getElementsByTagName("P")[5].innerHTML = x;
+document.getElementsByTagName("P")[8].innerHTML = x;
+
+//  getElementsByClassName("ef").innerHTML = x;
   setTimeout(openClosed, 15000);
 };
 
