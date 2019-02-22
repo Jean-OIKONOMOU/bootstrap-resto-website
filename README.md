@@ -8,7 +8,7 @@ Je voudrais d'abord remercier chaque personne à ma table pour leur soutien :) (
 Mon premier projet avec Bootstrap 4 ! Il y a de tout dedans. C'est un site pour un restaurant fictif appelé JoJo's Bizzare Cuisine.
 
 # Quand as-tu bossé dessus ?
-Du lundi 18/2/2018 au jeudi 21/02/2018 16:59:54.
+Du lundi 18/2/2018 au jeudi 21/02/2018 16:59:54 (et le projet continue toujours!).
 
 # A quoi ça ressemble ?
 C'est pas excellent au niveau du jeu de couleur. Par contre, j'ai fait en sorte que les boutons soient grands pour que ce soit plus facile à appuyer dessus. Je dois encore le convertir en Progressive Web App aussi.
@@ -17,4 +17,4 @@ C'est pas excellent au niveau du jeu de couleur. Par contre, j'ai fait en sorte 
 La version que j'ai rendue était presque finie. Maintenant je ne fais que optimiser pour augmenter mon score *"Performance"* de Google lighthouse avant d'en faire une PWA.
 
 # Comment qu’on l’installe ?
-Juste cliquez sur [le lien Github page suivant](https://jean-oikonomou.github.io/bootstrap-resto-website/). Sinon, téléchargez le repo sous format .zip et lancez le en local (pourquoi pas?).
+Juste cliquez sur [le lien Github page suivant](https://jean-oikonomou.github.io/bootstrap-resto-website/). Sinon, téléchargez le repo sous format .zip et lancez le en local (pourquoi pas?). Je vais l'hébérger sur l'hébérgeur de Dorian lorsque j'estimerais que mon site est prêt.
