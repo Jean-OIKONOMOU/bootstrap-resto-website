@@ -31,7 +31,7 @@ body, html {
   /* Safari, Android, iOS */
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1224px) {
   .centerMe {
     position: absolute;
     top: 50%;
@@ -59,8 +59,19 @@ body, html {
   font-family: 'alex', sans-serif;
 }
 
-.big-font {
-  font-size: 1.5em;
+  .big-font { font-size: 2rem; }
+
+.gold {
+    color: #ffbf46 !important;
+}
+
+.gel {
+  background-color: #08415c !important;
+}
+
+.border-warning {
+  border-width: 3px !important;
+  border-color: #73c1c6 !important;
 }
 
 a {
@@ -92,7 +103,7 @@ div.transbox2 {
 }
 
 div.transbox3 {
-  background: rgba(161, 32, 32, 1);
+  background: #575761;
 }
 
 .bg {
@@ -117,6 +128,31 @@ div.transbox3 {
 
 .navbar {
   background: transparent !important;
+}
+
+.coolBG  {
+  width: 100%;
+  padding: 65vh 5vh 5vh 5vh;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  /*display: flex;
+  justify-content: center;
+  align-items: flex-end;*/
+
+  z-index: -1;
+  position: relative;
+  overflow: hidden;
+}
+
+.behind {
+  position:absolute;
+  top: 0;
+
 }
 
 .fa-bomb {
@@ -218,6 +254,8 @@ div.transbox3 {
   width: 100%;
   object-fit: cover;
 }
+
+
 
 /* IMAGE ANIMATION */
 #img {
