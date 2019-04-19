@@ -2,7 +2,7 @@
 Voila mon premier site crée avec Bootstrap 4 !
 
 # Qui a fait le projet :
-Je voudrais d'abord remercier chaque personne à ma table pour leur soutien :) (JP, Gaelle, Louise, Perry). Sinon, c'est moi qui a codé mon site forcément: ***Jean-Adrian OIKONOMOU***.
+Je voudrais d'abord remercier chaque personne à ma table pour leur soutien :) (JP, Gaelle, Louise, Perry). Sinon, c'est moi qui a codé mon site forcément: [***Jean-Adrian OIKONOMOU***](https://github.com/Jean-OIKONOMOU).
 
 # Qu’est-ce que c’est ?
 Mon premier projet avec Bootstrap 4 ! Il y a de tout dedans. C'est un site pour un restaurant fictif appelé JoJo's Bizzare Cuisine.
